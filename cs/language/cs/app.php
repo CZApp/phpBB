@@ -1,18 +1,30 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* Jazykový soubor phpBB systému.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* Plný copyright a licence se nachází v souboru
+* docs/CREDITS.txt.
 *
 */
 
 /**
-* DO NOT CHANGE
+* 
+* Informace překladatele
+* 
+* @copyright (c) CZApp <http://www.czapp.cz>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* 
+* Pro hlášení chyb v překladu použij náš reportní
+* systém <http://www.czapp.cz/report>
+* 
+*/
+
+/**
+* Následující kód neměnit
 */
 if (!defined('IN_PHPBB'))
 {
@@ -41,8 +53,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller "<strong>%s</strong>" is not defined in ./config/services.yml.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	              => 'Chybá hodnota pro argument #%1$s: <strong>%3$s</strong> ve třídě <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			                  => 'Nebyl specifikován žádný kontrolor.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	                => 'Nebyla specifikována metoda pro kontrolora.',
+	'CONTROLLER_SERVICE_UNDEFINED'		                => 'Služba pro kontrolora "<strong>%s</strong>" není definována v ./config/services.yml.',
 ));

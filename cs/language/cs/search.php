@@ -1,18 +1,30 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* Jazykový soubor phpBB systému.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* Plný copyright a licence se nachází v souboru
+* docs/CREDITS.txt.
 *
 */
 
 /**
-* DO NOT CHANGE
+* 
+* Informace překladatele
+* 
+* @copyright (c) CZApp <http://www.czapp.cz>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* 
+* Pro hlášení chyb v překladu použij náš reportní
+* systém <http://www.czapp.cz/report>
+* 
+*/
+
+/**
+* Následující kód neměnit
 */
 if (!defined('IN_PHPBB'))
 {
@@ -37,88 +49,93 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'All available',
-	'ALL_RESULTS'			=> 'All results',
+	'ALL_AVAILABLE'			                              => 'Všechny dostupné',
+	'ALL_RESULTS'			                                => 'Všechny výsledky',
 
-	'DISPLAY_RESULTS'		=> 'Display results as',
+	'DISPLAY_RESULTS'		                              => 'Zobrazit výsledky jako',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found %d match',
-		2	=> 'Search found %d matches',
+		1	    => 'Nalezen %d odpovídající záznam',
+		2	    => 'Nalezeny %d odpovídající záznamy',
+    3	    => 'Nalezeno %d odpovídajících záznamů',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found more than %d match',
-		2	=> 'Search found more than %d matches',
+		1	    => 'Nalezeno více jak %d odpovídající záznam',
+		2	    => 'Nalezeno více jak %d odpovídající záznamy',
+    3	    => 'Nalezeno více jak %d odpovídajících záznamů',
 	),
 
-	'GLOBAL'				=> 'Global announcement',
+	'GLOBAL'				                                  => 'Globální oznámení',
 
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
+	'IGNORED_TERMS'			                              => 'vynecháno',
+	'IGNORED_TERMS_EXPLAIN'	                          => 'Následující slova byla vynechána kvůli svému častému výskytu: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'Jump to post',
+	'JUMP_TO_POST'			                              => 'Přejít na příspěvek',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'The board requires you to be registered and logged in to view new posts since your last visit.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	                        => 'Pro vyhledání tvých příspěvků se musíš nejdříve přihlásit.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'                      => 'Pro vyhledání nepřečtených příspěvků se musíš nejdříve přihlásit.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	                        => 'Pro vyhledání nových příspěvků se musíš nejdříve přihlásit.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+		1	    => 'Bohužel jsi zadal příliš mnoho slov k vyhledání. Nejvýše lze zadat %1$d slovo.',
+		2	    => 'Bohužel jsi zadal příliš mnoho slov k vyhledání. Nejvýše lze zadat %1$d slova.',
+    3	    => 'Bohužel jsi zadal příliš mnoho slov k vyhledání. Nejvýše lze zadat %1$d slov.',
 	),
 
-	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
-	'NO_RECENT_SEARCHES'	=> 'No searches have been carried out recently.',
-	'NO_SEARCH'				=> 'Sorry but you are not permitted to use the search system.',
-	'NO_SEARCH_RESULTS'		=> 'No suitable matches were found.',
-	'NO_SEARCH_LOAD'		=> 'Sorry but you cannot use search at this time. The server has high load. Please try again later.',
+	'NO_KEYWORDS'			                                => 'Pro vyhledávání musíš zadat minimálně jedno klíčové slovo o délce v rozmezí %s až %s znaků. Zástupný znak <strong>*</strong> se nepočítá.',
+	'NO_RECENT_SEARCHES'	                            => 'Nebylo nalezeno žádné předchozí vyhledávání.',
+	'NO_SEARCH'				                                => 'Nemáš dostatečná oprávnění pro vyhledávání.',
+	'NO_SEARCH_RESULTS'		                            => 'Bohužel se nepodařilo najít žádné odpovídající výsledky.',
+	'NO_SEARCH_LOAD'		                              => 'Je nám líto, ale kvůli zátěži serveru je vyhledávání dočasně nedostupné.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Sorry but you cannot use search at this time. Please try again in %d second.',
-		2	=> 'Sorry but you cannot use search at this time. Please try again in %d seconds.',
+		1	    => 'Nemůžeš vyhledávat tak brzy po předchozím vyhledávání. Zkus to znovu za %d vteřinu.',
+		2	    => 'Nemůžeš vyhledávat tak brzy po předchozím vyhledávání. Zkus to znovu za %d vteřiny.',
+    3	    => 'Nemůžeš vyhledávat tak brzy po předchozím vyhledávání. Zkus to znovu za %d vteřin.',
 	),
-	'NO_SEARCH_UNREADS'		=> 'Sorry but searching for unread posts has been disabled on this board.',
-	'WORD_IN_NO_POST'		=> 'No posts were found because the word <strong>%s</strong> is not contained in any post.',
-	'WORDS_IN_NO_POST'		=> 'No posts were found because the words <strong>%s</strong> are not contained in any post.',
+	'NO_SEARCH_UNREADS'		                            => 'Vyhledávání nepřečtených příspěvků je bohužel zakázané.',
+	'WORD_IN_NO_POST'		                              => 'Vyhledávání bylo neúspěšné, protože slovo <strong>%s</strong> není obsaženo v žádném příspěvku.',
+	'WORDS_IN_NO_POST'		                            => 'Vyhledávání bylo neúspěšné, protože slova <strong>%s</strong> nejsou obsažena v žádném příspěvku.',
 
-	'POST_CHARACTERS'		=> 'characters of posts',
-	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
+	'POST_CHARACTERS'		                              => 'prvních znaků příspěvku',
+	'PHRASE_SEARCH_DISABLED'	                        => 'Vyhledávání přesné schody je bohužel zakázáné.',
 
-	'RECENT_SEARCHES'		=> 'Recent searches',
-	'RESULT_DAYS'			=> 'Limit results to previous',
-	'RESULT_SORT'			=> 'Sort results by',
-	'RETURN_FIRST'			=> 'Return first',
-	'GO_TO_SEARCH_ADV'	=> 'Go to advanced search',
+	'RECENT_SEARCHES'		                              => 'Nejčastější vyhledávání',
+	'RESULT_DAYS'			                                => 'Vyhledávat v období za poslední',
+	'RESULT_SORT'			                                => 'Seřadit podle',
+	'RETURN_FIRST'			                              => 'Zobrazit',
+	'GO_TO_SEARCH_ADV'	                              => 'Přejít na rozšířené vyhledávání',
 
-	'SEARCHED_FOR'				=> 'Search term used',
-	'SEARCHED_TOPIC'			=> 'Searched topic',
-	'SEARCHED_QUERY'			=> 'Searched query',
-	'SEARCH_ALL_TERMS'			=> 'Search for all terms or use query as entered',
-	'SEARCH_ANY_TERMS'			=> 'Search for any terms',
-	'SEARCH_AUTHOR'				=> 'Search for author',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * as a wildcard for partial matches.',
-	'SEARCH_FIRST_POST'			=> 'First post of topics only',
-	'SEARCH_FORUMS'				=> 'Search in forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Select the forum or forums you wish to search in. Subforums are searched automatically if you do not disable “search subforums“ below.',
-	'SEARCH_IN_RESULTS'			=> 'Search these results',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches.',
-	'SEARCH_MSG_ONLY'			=> 'Message text only',
-	'SEARCH_OPTIONS'			=> 'Search options',
-	'SEARCH_QUERY'				=> 'Search query',
-	'SEARCH_SUBFORUMS'			=> 'Search subforums',
-	'SEARCH_TITLE_MSG'			=> 'Post subjects and message text',
-	'SEARCH_TITLE_ONLY'			=> 'Topic titles only',
-	'SEARCH_WITHIN'				=> 'Search within',
-	'SORT_ASCENDING'			=> 'Ascending',
-	'SORT_AUTHOR'				=> 'Author',
-	'SORT_DESCENDING'			=> 'Descending',
-	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Post subject',
-	'SORT_TIME'					=> 'Post time',
-	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.',
+	'SEARCHED_FOR'				                            => 'Vyledávaný text',
+	'SEARCHED_TOPIC'			                            => 'Prohledávané téma',
+	'SEARCHED_QUERY'			                            => 'Vyhledávaný dotaz',
+	'SEARCH_ALL_TERMS'			                          => 'Vyhledávat všechna slova či přesnou schodu s dotazem',
+	'SEARCH_ANY_TERMS'			                          => 'Vyhledávat kterékoliv slovo',
+	'SEARCH_AUTHOR'				                            => 'Autor',
+	'SEARCH_AUTHOR_EXPLAIN'		                        => 'Jako zástupný znak lze použít <strong>*</strong>.',
+	'SEARCH_FIRST_POST'			                          => 'Prvním příspěvku tématu',
+	'SEARCH_FORUMS'				                            => 'Vyhledávat v sekcích',
+	'SEARCH_FORUMS_EXPLAIN'		                        => 'Zde můžeš vybrat sekce, ve kterých chceš vyhledávat. Podřazené sekce jsou prohledávány automaticky, pokud nevypneš možnost "Prohledávat podřazené sekce".',
+	'SEARCH_IN_RESULTS'			                          => 'Vyhledávat ve výsledkách',
+	'SEARCH_KEYWORDS_EXPLAIN'	                        => 'Zde zadej klíčová slova pro vyhledávání. Pokud musí být slovo ve vyhledávání přítomno, umísti před něj znak <strong>+</strong>. Pokud slovo nemusí být přítomno, zadej znak <strong>-</strong>. Pro schodu alespoň s jedním klíčovým slovem, je nutné je umístit do závorem a oddělit znakem <strong>|</strong>. Pro náhradu části slova lze použít znak <strong>*</strong>.',
+	'SEARCH_MSG_ONLY'			                            => 'Obsahu',
+	'SEARCH_OPTIONS'			                            => 'Možnosti vyhledávání',
+	'SEARCH_QUERY'				                            => 'Dotaz k vyhledání',
+	'SEARCH_SUBFORUMS'			                          => 'Prohledávat podřazené sekce',
+	'SEARCH_TITLE_MSG'			                          => 'Předmětu i obsahu',
+	'SEARCH_TITLE_ONLY'			                          => 'Předmětu tématu',
+	'SEARCH_WITHIN'				                            => 'Vyhledávat v',
+	'SORT_ASCENDING'			                            => 'Vzestupně',
+	'SORT_AUTHOR'				                              => 'Autora',
+	'SORT_DESCENDING'			                            => 'Sestupně',
+	'SORT_FORUM'				                              => 'Sekce',
+	'SORT_POST_SUBJECT'			                          => 'Předmětu',
+	'SORT_TIME'					                              => 'Času odeslání',
+	'SPHINX_SEARCH_FAILED'		                        => 'Vyhledávání se bohužel nezdařilo: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	                      => 'Je nám líto, ale vyhledávání nebylo úspěšné. Více informací je v chybovém záznamu.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'You must specify at least %d character of the authors name.',
-		2	=> 'You must specify at least %d characters of the authors name.',
+		1	    => 'Musíš zadat minimálně %d znak z přezdívky autora.',
+		2	    => 'Musíš zadat minimálně %d znaky z přezdívky autora.',
+    3	    => 'Musíš zadat minimálně %d znaků z přezdívky autora.',
 	),
 ));

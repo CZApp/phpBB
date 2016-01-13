@@ -1,20 +1,40 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* Jazykový soubor phpBB systému.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* Plný copyright a licence se nachází v souboru
+* docs/CREDITS.txt.
 *
 */
 
+/**
+* 
+* Informace překladatele
+* 
+* @copyright (c) CZApp <http://www.czapp.cz>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* 
+* Pro hlášení chyb v překladu použij náš reportní
+* systém <http://www.czapp.cz/report>
+* 
+*/
+
+/**
+* Následující kód neměnit
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
+
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
 
 $synonyms = array(
 	'abcense'			=> 'absence',

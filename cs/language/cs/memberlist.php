@@ -1,18 +1,30 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* Jazykový soubor phpBB systému.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* Plný copyright a licence se nachází v souboru
+* docs/CREDITS.txt.
 *
 */
 
 /**
-* DO NOT CHANGE
+* 
+* Informace překladatele
+* 
+* @copyright (c) CZApp <http://www.czapp.cz>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* 
+* Pro hlášení chyb v překladu použij náš reportní
+* systém <http://www.czapp.cz/report>
+* 
+*/
+
+/**
+* Následující kód neměnit
 */
 if (!defined('IN_PHPBB'))
 {
@@ -37,118 +49,118 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ABOUT_USER'			=> 'Profile',
-	'ACTIVE_IN_FORUM'		=> 'Most active forum',
-	'ACTIVE_IN_TOPIC'		=> 'Most active topic',
-	'ADD_FOE'				=> 'Add foe',
-	'ADD_FRIEND'			=> 'Add friend',
-	'AFTER'					=> 'After',
+	'ABOUT_USER'			                                => 'Profil',
+	'ACTIVE_IN_FORUM'		                              => 'Nejaktivnější v sekci',
+	'ACTIVE_IN_TOPIC'		                              => 'Nejaktivnější v tématu',
+	'ADD_FOE'				                                  => 'Přidat nepřítele',
+	'ADD_FRIEND'			                                => 'Přidat přítele',
+	'AFTER'					                                  => 'Po',
 
-	'ALL'					=> 'All',
+	'ALL'					                                    => 'Vše',
 
-	'BEFORE'				=> 'Before',
+	'BEFORE'				                                  => 'Před',
 
-	'CC_SENDER'				=> 'Send a copy of this email to yourself.',
-	'CONTACT_ADMIN'			=> 'Contact a Board Administrator',
+	'CC_SENDER'				                                => 'Zaslat mi kopii.',
+	'CONTACT_ADMIN'			                              => 'Kontaktovat administrátora',
 
-	'DEST_LANG'				=> 'Language',
-	'DEST_LANG_EXPLAIN'		=> 'Select an appropriate language (if available) for the recipient of this message.',
+	'DEST_LANG'				                                => 'Jazyk',
+	'DEST_LANG_EXPLAIN'		                            => 'Zde můžeš vybrat preferovaný jazyk příjemce zprávy.',
 
-	'EDIT_PROFILE'			=> 'Edit profile',
+	'EDIT_PROFILE'			                              => 'Upravit profil',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. The return address for this message will be set to your email address.',
-	'EMAIL_DISABLED'		=> 'Sorry but all email related functions have been disabled.',
-	'EMAIL_SENT'			=> 'The email has been sent.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. Please note that the topic information is already included in the message. The return address for this message will be set to your email address.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'You must provide a valid email address for the recipient.',
-	'EMPTY_MESSAGE_EMAIL'	=> 'You must enter a message to be emailed.',
-	'EMPTY_MESSAGE_IM'		=> 'You must enter a message to be send.',
-	'EMPTY_NAME_EMAIL'		=> 'You must enter the real name of the recipient.',
-	'EMPTY_SENDER_EMAIL'	=> 'You must provide a valid email address.',
-	'EMPTY_SENDER_NAME'		=> 'You must provide a name.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'You must specify a subject for the email.',
-	'EQUAL_TO'				=> 'Equal to',
+	'EMAIL_BODY_EXPLAIN'	                            => 'Zde popiš problém, který chceš sdělit administrátorovi. Zpráva bude odeslána jako prostý text, takže nepoužívej HTML ani BBKódy.',
+	'EMAIL_DISABLED'		                              => 'Je nám líto, ale funkce e-mailů je vypnuta.',
+	'EMAIL_SENT'			                                => 'E-mail byl úspěšně odeslán.',
+	'EMAIL_TOPIC_EXPLAIN'	                            => 'Zpráva bude odeslána jako prostý text, takže nepoužívej HTML ani BBKódy. Všechny důležité informace o tématu jsou vloženy automaticky.',
+	'EMPTY_ADDRESS_EMAIL'	                            => 'Musíš vyplnit e-mailovou adresu příjemce.',
+	'EMPTY_MESSAGE_EMAIL'	                            => 'Musíš vyplnit text e-mailu.',
+	'EMPTY_MESSAGE_IM'		                            => 'Musíš vyplnit text zprávy.',
+	'EMPTY_NAME_EMAIL'		                            => 'Musíš vyplnit jméno příjemce.',
+	'EMPTY_SENDER_EMAIL'	                            => 'Musíš vyplnit e-mailovou zprávu odesílatele.',
+	'EMPTY_SENDER_NAME'		                            => 'Musíš vyplnit jméno odesílatele.',
+	'EMPTY_SUBJECT_EMAIL'	                            => 'Musíš vyplnit předmět e-mailu.',
+	'EQUAL_TO'				                                => 'Rovná se',
+                                                                                                         
+	'FIND_USERNAME_EXPLAIN'	                          => 'Zde máš možnost vyhledat členy podle zadaných kritérií. Jako zástupný znak lze použít <strong>*</strong> a pro datum použij formát <strong>ROK-MĚSÍC-DEN</strong>, např.: <em>2016-01-18</em>. Pro výběr více členů můžeš použít zaškrtávací políčka.',
+	'FLOOD_EMAIL_LIMIT'		                            => 'Nemůžeš odeslat e-mail tak brzy po předchozím.',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
-	'FLOOD_EMAIL_LIMIT'		=> 'You cannot send another email at this time. Please try again later.',
+	'GROUP_LEADER'			                              => 'Vedoucí skupiny',
 
-	'GROUP_LEADER'			=> 'Group leader',
+	'HIDE_MEMBER_SEARCH'	                            => 'Skrýt vyhledávání',
 
-	'HIDE_MEMBER_SEARCH'	=> 'Hide member search',
+	'IM_ADD_CONTACT'		                              => 'Přidat do kontaktů',
+	'IM_DOWNLOAD_APP'		                              => 'Stáhnou aplikaci',
+	'IM_JABBER'				                                => 'Vezmi na vědomí, že příjemce může mít zakázané přijímání zpráv od uživatelů, kteří nejsou v jeho kontaktech.',
+	'IM_JABBER_SUBJECT'		                            => 'Toto je automaticky zaslaná zpráva z %2$s od %1$s. Na tuto zprávu neodpovídej!',
+	'IM_MESSAGE'			                                => 'Má zpráva',
+	'IM_NAME'				                                  => 'Mé jméno',
+	'IM_NO_DATA'			                                => 'Je nám líto, ale není zde žádný kontakt na člena.',
+	'IM_NO_JABBER'			                              => 'Je nám líto, ale funkce zasílání Jabber zpráv přes fórum je vypnuta.',
+	'IM_RECIPIENT'			                              => 'Příjemce',
+	'IM_SEND'				                                  => 'Zaslat zprávu',
+	'IM_SEND_MESSAGE'		                              => 'Odeslat zprávu',
+	'IM_SENT_JABBER'		                              => 'Zpráva pro %1$s byla úspěšně odeslána.',
+	'IM_USER'				                                  => 'Zaslat zprávu',
 
-	'IM_ADD_CONTACT'		=> 'Add Contact',
-	'IM_DOWNLOAD_APP'		=> 'Download application',
-	'IM_JABBER'				=> 'Please note that users may have selected to not receive unsolicited instant messages.',
-	'IM_JABBER_SUBJECT'		=> 'This is an automated message please do not reply! Message from user %1$s at %2$s.',
-	'IM_MESSAGE'			=> 'Your message',
-	'IM_NAME'				=> 'Your Name',
-	'IM_NO_DATA'			=> 'There is no suitable contact information for this user.',
-	'IM_NO_JABBER'			=> 'Sorry, direct messaging of Jabber users is not supported on this board. You will need a Jabber client installed on your system to contact the recipient above.',
-	'IM_RECIPIENT'			=> 'Recipient',
-	'IM_SEND'				=> 'Send message',
-	'IM_SEND_MESSAGE'		=> 'Send message',
-	'IM_SENT_JABBER'		=> 'Your message to %1$s has been sent successfully.',
-	'IM_USER'				=> 'Send an instant message',
-
-	'LAST_ACTIVE'				=> 'Last active',
-	'LESS_THAN'					=> 'Less than',
+	'LAST_ACTIVE'				                              => 'Naposledy aktivní',
+	'LESS_THAN'					                              => 'Méně než',
 	'LIST_USERS'				=> array(
-		1	=> '%d user',
-		2	=> '%d users',
+		1	    => '%d člen',
+		2	    => '%d členi',
+    3	    => '%d členů',
 	),
-	'LOGIN_EXPLAIN_TEAM'		=> 'The board requires you to be registered and logged in to view the team listing.',
-	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'The board requires you to be registered and logged in to access the memberlist.',
-	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'The board requires you to be registered and logged in to search users.',
-	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'The board requires you to be registered and logged in to view profiles.',
+	'LOGIN_EXPLAIN_TEAM'		                          => 'Pro zobrazení členů týmu se musíš nejprve přihlásit.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	                      => 'Pro zobrazení seznamu členů se musíš nejprve přihlásit.',
+	'LOGIN_EXPLAIN_SEARCHUSER'	                      => 'Pro vyhledání člena se musíš nejprve přihlásit.',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	                      => 'Pro zobrazení profilu člena se musíš nejprve přihlásit.',
 
-	'MANAGE_GROUP'			=> 'Manage Group',
-	'MORE_THAN'				=> 'More than',
+	'MANAGE_GROUP'			                              => 'Spravovat skupinu',
+	'MORE_THAN'				                                => 'Více jak',
 
-	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.',
-	'NO_CONTACT_PAGE'		=> 'The board administrator contact page has been disabled.',
-	'NO_EMAIL'				=> 'You are not permitted to send email to this user.',
-	'NO_VIEW_USERS'			=> 'You are not authorised to view the member list or profiles.',
+	'NO_CONTACT_FORM'		                              => 'Je nám líto, ale formulář pro kontaktování administrátora je vypnutý.',
+	'NO_CONTACT_PAGE'		                              => 'Je nám líto, ale stránka pro kontaktování administrátora je vypnuta.',
+	'NO_EMAIL'				                                => 'Nemáš dostatečná oprávnění pro odeslání e-mailu.',
+	'NO_VIEW_USERS'			                              => 'Nemáš dostatečná oprávnění pro zobrazení seznamu členů či jejich profilů.',
 
-	'ORDER'					=> 'Order',
-	'OTHER'					=> 'Other',
+	'ORDER'					                                  => 'Seřadit',
+	'OTHER'					                                  => 'Ostatní',
 
-	'POST_IP'				=> 'Posted from IP/domain',
+	'POST_IP'				                                  => 'IP adresa či doména',
 
-	'REAL_NAME'				=> 'Recipient name',
-	'RECIPIENT'				=> 'Recipient',
-	'REMOVE_FOE'			=> 'Remove foe',
-	'REMOVE_FRIEND'			=> 'Remove friend',
+	'REAL_NAME'				                                => 'Jméno příjemce',
+	'RECIPIENT'				                                => 'Příjemce',
+	'REMOVE_FOE'			                                => 'Odebrat nepřítele',
+	'REMOVE_FRIEND'			                              => 'Odebrat přítele',
 
-	'SELECT_MARKED'			=> 'Select marked',
-	'SELECT_SORT_METHOD'	=> 'Select sort method',
-	'SENDER_EMAIL_ADDRESS'	=> 'Your email address',
-	'SENDER_NAME'			=> 'Your name',
-	'SEND_ICQ_MESSAGE'		=> 'Send ICQ message',
-	'SEND_IM'				=> 'Instant messaging',
-	'SEND_JABBER_MESSAGE'	=> 'Send Jabber message',
-	'SEND_MESSAGE'			=> 'Message',
-	'SEND_YIM_MESSAGE'		=> 'Send YIM message',
-	'SORT_EMAIL'			=> 'Email',
-	'SORT_LAST_ACTIVE'		=> 'Last active',
-	'SORT_POST_COUNT'		=> 'Post count',
+	'SELECT_MARKED'			                              => 'Vybrat označené',
+	'SELECT_SORT_METHOD'	                            => 'Vybrat způsob řazení',
+	'SENDER_EMAIL_ADDRESS'	                          => 'Má e-mailová zpráva',
+	'SENDER_NAME'			                                => 'Mé jméno',
+	'SEND_ICQ_MESSAGE'		                            => 'Zaslat ICQ zprávu',
+	'SEND_IM'				                                  => 'Rychlá zpráva',
+	'SEND_JABBER_MESSAGE'	                            => 'Zaslat Jabber zprávu',
+	'SEND_MESSAGE'			                              => 'Zpráva',
+	'SEND_YIM_MESSAGE'		                            => 'Zaslat YIM zprávu',
+	'SORT_EMAIL'			                                => 'E-mailu',
+	'SORT_LAST_ACTIVE'		                            => 'Poslední aktivity',
+	'SORT_POST_COUNT'		                              => 'Počtu příspěvků',
 
-	'USERNAME_BEGINS_WITH'	=> 'Username begins with',
-	'USER_ADMIN'			=> 'Administer user',
-	'USER_BAN'				=> 'Banning',
-	'USER_FORUM'			=> 'User statistics',
+	'USERNAME_BEGINS_WITH'	                          => 'Přezdívka začíná na',
+	'USER_ADMIN'			                                => 'Spravovat',
+	'USER_BAN'				                                => 'Zakázat přístup',
+	'USER_FORUM'			                                => 'Statistiky',
 	'USER_LAST_REMINDED'	=> array(
-		0		=> 'No reminder sent at this time',
-		1		=> '%1$d reminder sent<br />» %2$s',
-		2		=> '%1$d reminder sent<br />» %2$s',
+		0		   => 'Zatím nebylo odesláno žádné upozornění',
+		1		   => 'Upozornění odesláno: %1$dx<br />» %2$s',
 	),
-	'USER_ONLINE'			=> 'Online',
-	'USER_PRESENCE'			=> 'Board presence',
-	'USERS_PER_PAGE'		=> 'Users per page',
+	'USER_ONLINE'			                                => 'Připojen',
+	'USER_PRESENCE'			                              => 'Přítomnost na fóru',
+	'USERS_PER_PAGE'		                              => 'Členů na stránku',
 
-	'VIEWING_PROFILE'		=> 'Viewing profile - %s',
-	'VIEW_FACEBOOK_PROFILE'	=> 'View Facebook Profile',
-	'VIEW_SKYPE_PROFILE'	=> 'View Skype Profile',
-	'VIEW_TWITTER_PROFILE'	=> 'View Twitter Profile',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'View YouTube Channel',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'View Google+ Profile',
+	'VIEWING_PROFILE'		                              => 'Profil člena - %s',
+	'VIEW_FACEBOOK_PROFILE'	                          => 'Zobrazit profil na Facebooku',
+	'VIEW_SKYPE_PROFILE'	                            => 'Zobrazit profil na Skypu',
+	'VIEW_TWITTER_PROFILE'	                          => 'Zobrazit profil na Twitteru',
+	'VIEW_YOUTUBE_CHANNEL'	                          => 'Zobrazit profil na YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE'                         => 'Zobrazit profil na Google+',
 ));

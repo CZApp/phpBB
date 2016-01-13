@@ -1,18 +1,30 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* Jazykový soubor phpBB systému.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* Plný copyright a licence se nachází v souboru
+* docs/CREDITS.txt.
 *
 */
 
 /**
-* DO NOT CHANGE
+* 
+* Informace překladatele
+* 
+* @copyright (c) CZApp <http://www.czapp.cz>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* 
+* Pro hlášení chyb v překladu použij náš reportní
+* systém <http://www.czapp.cz/report>
+* 
+*/
+
+/**
+* Následující kód neměnit
 */
 if (!defined('IN_PHPBB'))
 {
@@ -37,16 +49,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCaptcha, you must create an account on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
-	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
+	'RECAPTCHA_LANG'				                          => 'cs',
+	'RECAPTCHA_NOT_AVAILABLE'		                      => 'Pro použití reCaptchy je nutné nejprve vytvořit účet na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'CAPTCHA_RECAPTCHA'				                        => 'reCaptcha',
+	'RECAPTCHA_INCORRECT'			                        => 'Ověřovací kód nesouhlasí.',
+	'RECAPTCHA_NOSCRIPT'			                        => 'Pro načtení ověřovací ochrany je nutné povolit JavaScript.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCaptcha key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				                        => 'Veřejný klíč',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		                    => 'Zde zadej veřejný klíč, který jsi obdržel při vytváření účtu na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				                        => 'Soukromý klíč',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		                    => 'Zde zadej soukromý klíč, který jsi obdržel při vytváření účtu na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you complete the following challenge.',
+	'RECAPTCHA_EXPLAIN'				                        => 'Pro zamezení automatických registrací je nutné, aby jsi svojí registraci ověřil opsáním ověřovacího kódu.',
 ));
