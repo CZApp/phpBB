@@ -1,31 +1,31 @@
 <?php
 /**
-*
-* Jazykový soubor phpBB systému.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* Plný copyright a licence se nachází v souboru
-* docs/CREDITS.txt.
-*
-*/
+ *
+ * Jazykový soubor phpBB systému.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * Plný copyright a licence se nachází v souboru
+ * docs/CREDITS.txt.
+ *
+ */
 
 /**
-* 
-* Informace překladatele
-* 
-* @copyright (c) CZApp <http://www.czapp.cz>
-* @license GNU General Public License, version 2 (GPL-2.0)
-* 
-* Pro hlášení chyb v překladu použij náš reportní
-* systém <http://www.czapp.cz/report>
-* 
-*/
+ * 
+ * Informace překladatele
+ * 
+ * @copyright (c) CZApp <http://www.czapp.cz>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ * 
+ * Pro hlášení chyb v překladu použij náš reportní
+ * systém <http://www.czapp.cz/report>
+ * 
+ */
 
 /**
-* Následující kód neměnit
-*/
+ * Následující kód neměnit
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				                          => 'cs',
 	'RECAPTCHA_NOT_AVAILABLE'		                      => 'Pro použití reCaptchy je nutné nejprve vytvořit účet na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				                        => 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			                        => 'Ověřovací kód nesouhlasí.',
+	'RECAPTCHA_INCORRECT'			                        => 'Bohužel jsi zadal špatné řešení.',
 	'RECAPTCHA_NOSCRIPT'			                        => 'Pro načtení ověřovací ochrany je nutné povolit JavaScript.',
 
 	'RECAPTCHA_PUBLIC'				                        => 'Veřejný klíč',
@@ -60,5 +60,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				                        => 'Soukromý klíč',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		                    => 'Zde zadej soukromý klíč, který jsi obdržel při vytváření účtu na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				                        => 'Pro zamezení automatických registrací je nutné, aby jsi svojí registraci ověřil opsáním ověřovacího kódu.',
+	'RECAPTCHA_EXPLAIN'				                        => 'Pro zamezení automatických registrací je nutné, aby jsi svojí registraci ověřil vyřešením ochrany.',
 ));
