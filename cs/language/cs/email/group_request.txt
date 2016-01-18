@@ -1,10 +1,10 @@
-Subject: A request to join your group has been made
+Subject: Žádost o členství ve skupině
 
-Dear {USERNAME},
+Ahoj {USERNAME},
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+Člen "{REQUEST_USERNAME}" požádal o členství ve skupině "{GROUP_NAME}" na "{SITENAME}".
 
+Pro schválení či zamítnutí členství použij odkaz:
 {U_PENDING}
 
 {EMAIL_SIG}

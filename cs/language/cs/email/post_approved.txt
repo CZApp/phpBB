@@ -1,13 +1,13 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Schválení příspěvku - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Obdržel jsi tento e-mail, protože tvůj příspěvek "{POST_SUBJECT}" na "{SITENAME}" byl schválen.
 
-If you want to view the post, click the following link:
+Pro zobrazení příspěvku použij odkaz:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Pro zobrazení tématu použij odkaz:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

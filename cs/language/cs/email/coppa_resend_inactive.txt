@@ -1,42 +1,41 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Vítej na "{SITENAME}"
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+Kvůli COPPA podmínkám je tvůj účet aktuálně neověřený a je potřeba postupovat podle následujících istrukcí.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Tento e-mail je nutné vytisknou a podepsaný zákoným zástupcem zaslat na fax:
 
 {FAX_INFO}
 
-OR mail it to:
+nebo na e-mail:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+------------------------------ Zde odstřihnout ------------------------------
+Potvrzení přístupu na "{SITENAME}" - {U_BOARD}
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Přezdívka: {USERNAME}
+E-mailová adresa: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
-
-
-Parent or guardian 
-(print your name here): _____________________
-
-(sign here): __________________ 
-
-Date: _______________
-
------------------------------- CUT HERE ------------------------------
+Jsem seznámen/a s poskytnutými údaji a souhlasím s jejich uchováváním na "{SITENAME}". 
+Jsem si vědom/a, že tyto údaje lze změnit po přihlášení k účtu. 
+Jsem si vědom/a, že můžu kdykoliv zažádat o smazání těchto dat z "{SITENAME}".
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Zákonný zástupce: _____________________
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Podpis zákonného zástupce: __________________ 
 
-Thank you for registering.
+Datum: _______________
+
+------------------------------ Zde odstřihnout ------------------------------
+
+
+Po zkontrolování formuláře administrátorem, bude účet ověřen.
+
+Tvé heslo bylo zašifrováno v databázi a nelze ho znovu získat. Pokud heslo zapomeneš, je nutné požádat o vygenerování nového, které ti bude zasláno na tvůj e-mail spárovaný s účtem.
+
+Děkujeme za tvojí registraci a doufáme, že se ti na fóru bude líbit.
 
 {EMAIL_SIG}

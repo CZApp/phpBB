@@ -1,10 +1,11 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: Zamítnutí příspěvku - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Obdržel jsi tento e-mail, protože tvůj příspěvek "{POST_SUBJECT}" na "{SITENAME}" byl zamítnut.
 
-The following reason was given for the disapproval:
+Důvod zamítnutí:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {REASON}
 

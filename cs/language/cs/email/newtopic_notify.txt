@@ -1,13 +1,13 @@
-Subject: New topic notification - "{FORUM_NAME}"
+Subject: Upozornění na nové téma v sekci - "{FORUM_NAME}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+Tento e-mail ti byl zaslán, protože jsi přihlášený k odběru sekce "{FORUM_NAME}" na "{SITENAME}". Do sekce bylo napsáno nové téma "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> od {AUTHOR_NAME}<!-- ENDIF -->.
 
+Pro zobrazení sekce s tématem použij odkaz:
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
-
+Až do příští návštěvy již neobdržíš toto upozornění, nebo pro odhlášení odběru můžeš použít odkaz:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

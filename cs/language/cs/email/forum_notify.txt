@@ -1,19 +1,19 @@
-Subject: Forum post notification - "{FORUM_NAME}"
+Subject: Upozornění na nový příspěvek v sekci "{FORUM_NAME}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new reply to the topic "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the last unread reply, no more notifications will be sent until you visit the topic.
+Tento e-mail ti byl zaslán, protože jsi přihlášený k odběru sekce "{FORUM_NAME}" na "{SITENAME}". Do tématu "{TOPIC_TITLE}" byl napsán nový příspěvek<!-- IF AUTHOR_NAME !== '' --> od {AUTHOR_NAME}<!-- ENDIF -->.
 
+Pro zobrazení všech nových příspěvků, od poslední návštěvy, použij odkaz:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Pro zobrazení tématu použij odkaz:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Pro zobrazení sekce s tématem použij odkaz:
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
-
+Pokud sekci nechceš nadále odebírat, použij odkaz:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

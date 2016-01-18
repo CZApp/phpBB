@@ -1,9 +1,9 @@
-Subject: Account activated
+Subject: Ověření účtu
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-Your account on "{SITENAME}" has been activated by an administrator, you may login now.
+Tvůj účet na "{SITENAME}" byl ověřen a můžeš se nyní přihlásit.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Tvé heslo bylo zašifrováno v databázi a nelze ho znovu získat. Pokud heslo zapomeneš, je nutné požádat o vygenerování nového, které ti bude zasláno na tvůj e-mail spárovaný s účtem.
 
 {EMAIL_SIG}

@@ -1,19 +1,19 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Vítej na "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Registrace proběhla s následujícími údaji:
 
 ----------------------------
-Username: {USERNAME}
+Přezdívka: {USERNAME}
 
-Board URL: {U_BOARD}
+Webová adresa: {U_BOARD}
 ----------------------------
 
-Your account is currently inactive and will need to be approved by an administrator before you can log in. Another email will be sent when this has occurred.
+Je nutné, aby tvůj účet ověřil administrátor. O ověření budeš informován e-mailem.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Tvé heslo bylo zašifrováno v databázi a nelze ho znovu získat. Pokud heslo zapomeneš, je nutné požádat o vygenerování nového, které ti bude zasláno na tvůj e-mail spárovaný s účtem.
 
-Thank you for registering.
+Děkujeme za tvojí registraci a doufáme, že se ti na fóru bude líbit.
 
 {EMAIL_SIG}

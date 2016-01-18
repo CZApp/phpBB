@@ -1,13 +1,15 @@
 
-Hello {TO_USERNAME},
+Ahoj {TO_USERNAME},
 
-The following is a message sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Tento e-mail ti byl zaslán, protože {FROM_USERNAME} z "{SITENAME}" ti zaslal zprávu. Pokud zprávu považuješ za spam či obsahuje nevhodné či pohoršující komentáře, kontaktuj administrátora na adrese:
 
 {BOARD_CONTACT}
 
-Include this full message. Please note that the sender address has been set to the boards IM account.
+Při kontaktování přilož celý e-mail.
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adresa odesílatele byla nastavena na účet fóra, nikoli na člena {FROM_USERNAME}.
+
+Obsah zprávy:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

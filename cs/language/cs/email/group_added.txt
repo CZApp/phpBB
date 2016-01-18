@@ -1,11 +1,11 @@
-Subject: You have been added to this usergroup
+Subject: Členství v nové skupině
 
-Congratulations,
+Gratulujeme,
 
-You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
-This action was done by a group leader or the site administrator, contact them for more information.
+Stal jsi se členem skupiny "{GROUP_NAME}" na "{SITENAME}".
+Do skupiny jsi byl přidán jejím vedoucím nebo administrátorem.
 
-You can view your groups information here:
+Pro zobrazení informací o skupině použij odkaz:
 {U_GROUP}
 
 {EMAIL_SIG}

@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Účet člena potřebuje ověřit
 
-Hello,
+Ahoj,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+Účet uživatele "{USERNAME}" potřebuje ověření, protože byl pozměněn nebo nově vytvořen.
 
-Use this link to view the user's profile:
+Odkaz na profil člena:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Odkaz k ověření účtu:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

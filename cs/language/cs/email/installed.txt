@@ -1,19 +1,19 @@
-Subject: phpBB installed
+Subject: Instalace fóra dokončena
 
-Congratulations,
+Gratulujeme,
 
-You have successfully installed phpBB on your server.
+Tvá instalace phpBB fóra byla úspěšně dokončena.
 
-This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+E-mail obsahuje základní informace pro přihlášení do fóra pomocí účtu, který jsi vytvořil při instalaci. Vezmi na vědomí, že tvé heslo bylo zašifrováno v databázi a nelze ho získat. V případě zapomenutí hesla je nutné nechat zaslat nové na e-mailouvou adresu spojenou s tvým účtem.
 
 ----------------------------
-Username: {USERNAME}
+Přezdívka: {USERNAME}
 
-Board URL: {U_BOARD}
+Webová adresa: {U_BOARD}
 ----------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
+Užitečné informace k phpBB lze nalézt v adresáři /docs/ na tvém FTP či na stránkách phpBB - https://www.phpbb.com/support/
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+Kvůli bezpečnosti je doporučeno sledovat novinky o vývoji phpBB, které lze nalézt na výše uvedeném odkazu. Na odkazu se lze přihlásit i k automatickému zasílání novinek na e-mail.
 
 {EMAIL_SIG}

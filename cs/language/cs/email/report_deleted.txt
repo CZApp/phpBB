@@ -1,7 +1,7 @@
-Subject: Report deleted - "{POST_SUBJECT}"
+Subject: Smazání hlášení - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was deleted by a moderator or by an administrator.
+Obdržel jsi tento e-mail, protože tvé hlášení o příspěvku "{POST_SUBJECT}" v tématu "{TOPIC_TITLE}" na "{SITENAME}" bylo smazáno.
 
 {EMAIL_SIG}

@@ -1,7 +1,7 @@
-Subject: Report deleted - "{PM_SUBJECT}"
+Subject: Smazání hlášení - "{PM_SUBJECT}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" was deleted by a moderator or administrator.
+Obdržel jsi tento e-mail, protože tvé hlášení o soukromé zprávě "{PM_SUBJECT}" na "{SITENAME}" bylo smazáno.
 
 {EMAIL_SIG}

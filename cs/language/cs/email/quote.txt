@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Citován v tématu - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Ahoj {USERNAME},
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+Obdržel jsi tento e-mail, protože "{AUTHOR_NAME}" tě citoval v tématu "{TOPIC_TITLE}" na "{SITENAME}".
 
-If you want to view the quoted post, click the following link:
+Pro zobrazení citace použij odkaz:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Pro zobrazení tématu použij odkaz:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Pro zobrazení sekce použij odkaz:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
-
+Pokud nadále nechceš dostávat e-maily ohledně citování, změň své nastavení přes odkaz:
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

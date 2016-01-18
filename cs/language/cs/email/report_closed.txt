@@ -1,7 +1,9 @@
-Subject: Report closed - "{POST_SUBJECT}"
+Subject: Uzavření hlášení - "{POST_SUBJECT}"
 
 Hello {USERNAME},
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
+Obdržel jsi tento e-mail, protože tvé hlášení o příspěvku "{POST_SUBJECT}" v tématu "{TOPIC_TITLE}" na "{SITENAME}" bylo uzavřeno.
+
+Pro více informací můžeš kontaktovat {CLOSER_NAME} přes soukromou zprávu.
 
 {EMAIL_SIG}
